@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    font-size: 32px;
+    
+}
+@media only screen and (max-width:600px){
+    .main-container {
+        max-width:100% ;
+      }
+}
+@media only screen and (min-width:600px){
+    .main-container {
+        max-width:450px ;
+      }
+}
+@media only screen and (min-width:768px){
+    .main-container {
+        max-width:720px ;
+      } 
+}
+@media only screen and (min-width:992px){
+    .main-container {
+        max-width:960px ;
+      }
+    
+}
+@media only screen and (min-width:1200px){
+    .main-container {
+      max-width:1110px ;
+    }
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
