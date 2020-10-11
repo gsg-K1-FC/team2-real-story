@@ -25,6 +25,7 @@ h1{
     .main-container {
         max-width:720px ;
       } 
+      
 }
 @media only screen and (min-width:992px){
     .main-container {
@@ -39,7 +40,7 @@ h1{
 }
 
 .main-container {
-    width: 1200px;
+    width:100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -47,7 +48,124 @@ h1{
     padding: 10px;
 }
 
+.contact-section{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* padding: 30px 0 50px 0; */
+    text-align: center;
+    font-family:'palatino linotype',serif;
+    color: #3D3D3D;
+    align-items: center;
+}
 
+.section-title{
+    width: 750px;
+    margin-top: 67px;
+    margin-right: 0px;
+    margin-bottom: 41px;
+    padding: 50px;
+    border-bottom:1px solid rgba(83, 134, 228, 1);
+    font-family: 'spinnaker', sans-serif;
+    color: #3D3D3D;
+}
+
+.contact{
+    font-size: 30px;
+    letter-spacing: 6px;
+    color: #35548F;
+}
+
+.number_address{
+    position: relative;
+    height: auto;
+    width: 100%;
+    letter-spacing: 0.1em;
+    font-family:'palatino linotype',serif;
+    color: #3D3D3D;
+}
+.number_address p{
+    margin-top: 15px;
+}
+
+.subscribe{
+    margin:30px 0 ;
+    width: 100%;
+    height: 125px;
+}
+
+.subscribe p{
+    margin:18px ;
+}
+
+.sub_email{
+    padding:3px 3px 3px 21px;
+    text-align: left;
+    width: 249px;
+    height: 30px;
+}
+
+.sub_btn {
+    background-color: white;
+    color: #6E6E6E;
+    font-size: 16px;
+    border: solid rgba(110, 110, 110, 1) 1px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 3px;
+    width: 133px;
+    height: 38px;
+    margin-left:7px ;
+    transition-duration: 0.4s;
+  }
+
+  .sub_btn:hover {
+    background-color: #3d3d3d;
+    color: #fff;
+  }
+
+  .main-urls ,.social_media{
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .main-urls li {
+    margin-left: 50px;
+  }
+
+  .main-urls li a {
+    color: #3D3D3D;
+  }
+
+  .social_media{
+      margin-top: 60px;
+  }
+
+  .social_media li{
+      margin-left: 25px;
+  }
+
+  .social_media .fa{
+      color: black;
+      font-weight: 600;
+  }
+
+  footer {
+      width: 100%;
+      height: auto;
+      background-color: #F6F6F6;
+      margin-top: 80px;
+      text-align: center;
+      padding: 40px 0;
+      letter-spacing: 0.1em;
+      font-family:'palatino linotype',serif;
+      font-size: 14px;
+      color: #3D3D3D;
+  }
 
 
 
