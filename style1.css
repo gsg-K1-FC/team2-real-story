@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+/* navbar style */
+.logo a{
+    font-size:25px ;
+    font-family: "palatino linotype", sens-serif;
+    color: #474646;
+}
+.logo{
+    display: flex;
+}
+.nav-item a{
+    font-size:15px ;
+    font-family: spinnaker, sens-serif;
+    color: #6e6e6e;
+}
+#login-icon a,
+#cart-icon a{
+    color: #5386e4;
+    font-family: "palatino linotype", sens-serif;
+    font-size: larger;
+}
+.bars-icon i{
+    font-size: x-large;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    position: sticky;
+    padding: 20px 15%;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 3.5px 3.5px -2px rgba(94, 93, 93, 0.2);
+}
+.nav-items-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-item{
+    display: inline-block;
+    padding: 0px 15px;
+}
+/* media query for navbar */
+@media only screen and (min-width:600px){
+    .bars-icon i{
+        display: none; 
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width:600px){
+    .nav-items-container ul li{
+        display: none; 
+        visibility: hidden;
+    }
+}
+/* banner style */
+.banner{
+    position: relative;
+    width: 100%;
+}
+.landing-img{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.content{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-140%);
+    letter-spacing: 4px;
+    line-height: 40px;
+} 
+.content h3,.content h1,.content h3 a{
+    display: block;
+}
+.content h3{
+font-size: 16px;
+font-family: spinnaker, sens-serif;
+}
+.content h1{
+    font-size: 90px;
+    font-family: "palatino linotype", sens-serif;
+}
+.content h3 a{
+    color: #35548f;
+    text-decoration:underline;
+    padding-bottom: 1px;
+}
