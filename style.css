@@ -11,33 +11,6 @@ h1{
     font-size: 32px;
     
 }
-@media only screen and (max-width:600px){
-    .main-container {
-        max-width:100% ;
-      }
-}
-@media only screen and (min-width:600px){
-    .main-container {
-        max-width:450px ;
-      }
-}
-@media only screen and (min-width:768px){
-    .main-container {
-        max-width:720px ;
-      } 
-      
-}
-@media only screen and (min-width:992px){
-    .main-container {
-        max-width:960px ;
-      }
-    
-}
-@media only screen and (min-width:1200px){
-    .main-container {
-      max-width:1110px ;
-    }
-}
 
 .main-container {
     width:100%;
@@ -45,7 +18,7 @@ h1{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .contact-section{
@@ -62,9 +35,7 @@ h1{
 
 .section-title{
     width: 750px;
-    margin-top: 67px;
-    margin-right: 0px;
-    margin-bottom: 41px;
+    margin: 67px 0 41px 0;
     padding: 50px;
     border-bottom:1px solid rgba(83, 134, 228, 1);
     font-family: 'spinnaker', sans-serif;
@@ -166,6 +137,56 @@ h1{
       font-size: 14px;
       color: #3D3D3D;
   }
+
+@media only screen and (max-width:600px){
+    .main-container {
+        max-width:100% ;
+        margin: 0 auto;
+      }
+      .section-title{
+        max-width: 70%;
+        margin-top: 20px;
+      }
+}
+@media only screen and (min-width:600px){
+    .main-container {
+        max-width:100% ;
+        margin: 0 auto;
+      }
+      .section-title{
+        max-width: 70%;
+        margin-top: 30px;
+      }
+}
+@media only screen and (min-width:768px){
+    .main-container {
+        max-width:100% ;
+        margin: 0 auto;
+      } 
+
+      .section-title{
+        max-width: 80%;
+        margin-top: 41px;
+      }
+      
+}
+@media only screen and (min-width:992px){
+    .main-container {
+        max-width:100% ;
+        margin: 0 auto;
+      }
+      .section-title{
+        max-width: 80%;
+        margin-top: 41px;
+      }
+}
+@media only screen and (min-width:1200px){
+    .main-container {
+      max-width:100% ;
+      margin: 0 auto;
+    }
+}
+
 
 
 
