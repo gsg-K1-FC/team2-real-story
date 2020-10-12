@@ -3,47 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
     <link href="style1.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/23bea62652.js"></script>
     <title>Bestselling Author Store Website</title>
 </head>
 <body>
-    <header >
-        
+    <header>
         <nav class="navbar">
-            <div class="main-container">
-                <div class="nav-items-container">
-                    <div class="logo">
-                        <h2><a target="_self" href="index.html">J. Brown</a></h2>
-                    </div >
-                    <ul>
-                        <li class="nav-item"><a href="#">Home</a></li>
-                        <li class="nav-item"><a href="#">Books</a></li>
-                        <li class="nav-item"><a href="#">In The Press</a></li>
-                        <li class="nav-item"><a href="#">News & Events</a></li>
-                        <li class="nav-item"><a href="#">Contact</a></li>
-                        <li class="nav-item" id="login-icon"><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"> Log in</i></a></li>
-                        <li class="nav-item" id="cart-icon"><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
-                    </ul>
-                    <div class="bars-icon">
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-                    </div>
+            <div class="nav__items-container main-container">
+                <div class="logo">
+                    <h2><a target="_self" href="index.html">J. Brown</a></h2>
                 </div>
+                <div class="nav__tabs">
+                <ul>
+                    <li class="nav__item"><a href="#">Home</a></li>
+                    <li class="nav__item"><a href="#">Books</a></li>
+                    <li class="nav__item"><a href="#">In The Press</a></li>
+                    <li class="nav__item"><a href="#">News & Events</a></li>
+                    <li class="nav__item"><a href="#">Contact</a></li>
+                    <li class="nav__item login-icon"><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Log in</a></li>
+                </ul>
+                <span class="nav__item cart-icon"><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></span>
+            </div>
+                <div class="bars-icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            
             </div>
         </nav>
-        <section class="banner">
-                <img src="image.png" alt="book" class="landing-img">
-                <div class="content">
+    </header>
+    <section class="banner">
+            <div class="main-container ban__landing-container">
+                    <img src="images/img1.jpg" alt="RealStory" class="ban__landing-img1">
+                    <img src="images/img2.jpg" alt="RealStory" class="ban__landing-img2">
+                <div class="ban__content">
                     <h3>THE AWARD-WINNING BOOK BY JOEL BROWN</h3><br/>
                     <h1>The Real Story</h1><br/>
                     <h3><a href="#">BUY NOW</a></h3>
                 </div>
-        </section>
-            
-            
-        
-        
-    </header>
+            </div>      
+    </section> 
 </body>
 </html>
