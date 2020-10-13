@@ -169,9 +169,6 @@ h1{
         width:720px ;
       } 
 
-      .main-urls li{
-        flex-flow: row wrap;
-    }
 }
 @media only screen and (min-width:992px){
     .main-container {
