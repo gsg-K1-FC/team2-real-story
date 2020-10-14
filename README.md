@@ -1,7 +1,7 @@
-# team2-real-story 
+# Real Story 
 [The official website of the design](https://www.wix.com/website-template/view/html/2196?siteId=415ba990-d746-4baa-9eab-cf8202e7e990&metaSiteId=b4ab8426-755e-4c64-8b70-20956262a053&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fonline-store%2Fbooks-publishers&tpClick=view_button&fbclid=IwAR0xdjzpqtfKHUL-Xbnl1fPp-t5QHhfcSrOHCy6PPA2VzGI0mXBFfx1dmcM)
 
-## This is our landing page
+## Our design
 [Bestselling Author Store Website](https://gsg-k1-fc.github.io/team2-real-story/)‏
 
 ## The Purpose
